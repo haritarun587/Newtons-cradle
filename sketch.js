@@ -29,19 +29,14 @@ function setup() {
    bobObject5 = new Bob(450,300);
 
    rope1 = new Rope(bobObject1.body,roof.body,-100,0);
-   World.add(world,rope1);
 
    rope2 = new Rope(bobObject2.body,roof.body,-50,0);
-   World.add(world,rope2);
 
    rope3 = new Rope(bobObject3.body,roof.body,0,0);
-   World.add(world.rope3);
 
    rope4 = new Rope(bobObject4.body,roof.body,50,0);
-   World.add(world,rope4);
 
    rope5 = new Rope(bobObject5.body,roof.body,100,0);
-   World.add(world,rope5);
 
 	Engine.run(engine);
   
