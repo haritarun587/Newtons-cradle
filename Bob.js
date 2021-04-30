@@ -20,6 +20,9 @@ class Bob {
         fill (254,0,255);
         ellipse(this.body.position.x,this.body.position.y,25,25);
         pop ();
+        rotate();
+        translate();
+        
 }
 
 }
